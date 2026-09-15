@@ -57,16 +57,12 @@ print('area of circle : ', area_of_circle)
 circum_of_circle = 2 * _PI * _radius
 print('circumference : ', circum_of_circle)
 
-#take radius from user
-user_radius = int(input('Enter radius of circle : '))
-user_area_of_circle = (user_radius ** 2) * _PI
-user_circum_of_circle = 2 * _PI * user_radius
-print('area of circle : ', user_area_of_circle)
-print('circumference : ', user_circum_of_circle)
+#13 take user information using input function
 
-#13 get user info using input function
-first_name = input('What is you first name : ')
-last_name = input('Enter your last name : ')
-country = input('Enter your country name : ')
-age = input('Enter your age : ')
+user_first_name = input('Enter your first name : ')
+user_last_name = input('Enter your last name : ')
+user_country = input('Enter your country name : ')
+user_age = input('Enter your age : ')
 
+print('First name : ', user_first_name, 'Last name : ', last_name, 'Country : ', user_country, 'Age : ', user_age, sep='\n')
+print(help('keywords'))
