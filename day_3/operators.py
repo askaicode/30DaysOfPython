@@ -81,3 +81,6 @@ word2 = 'dragon'
 print('on' in word1 and 'on' in word2)
 
 # 14 I hope this course is not full of jargon. Use in operator to check if jargon is in the sentence.
+sentence = 'I hope this course is not full of jargon.'
+target_word = 'jargon'
+print(target_word in sentence)
