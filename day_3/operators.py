@@ -61,9 +61,15 @@ print('The distance euclidean is : ', distance_euclidean)
 print('Comparing m_8 and m_9 (==)', m_8 == m_9)
 print('Comparing m_8 and m_9 (>)', m_8 > m_9)
 
+# Calculate the value of y (y = x^2 + 6x + 9). Try to use different x values and figure out at what x value y is going to be 0.
 # 11 - y = x**2 + 6x + 9
 # for y = 0, x should be -3
 x = -3
 y = (x**2) + 6 * x + 9
 print('x : ', x)
 print('y : ', y)
+
+# 12 Find the length of 'python' and 'dragon' and make a falsy comparison statement.
+python_len = len('python')
+dragon_len = len('dragon')
+print('Fasly comparaison of python and dragon ', python_len == dragon_len)
