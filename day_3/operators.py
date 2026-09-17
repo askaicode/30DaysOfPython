@@ -114,3 +114,9 @@ print('is the same type : ', type1 == type2)
 # 20 - Check if int('9.8') is equal to 10
 int_9dot8 = int(float('9.8'))
 print('is the same : ', int_9dot8 == 10)
+
+# 21 - Write a script that prompts the user to enter hours and rate per hour. Calculate pay of the person?
+worked_hours = float(input('Enter worked hours : '))
+rate_per_hour = float(input('Enter rate per hour : '))
+weekly_salary = round(worked_hours * rate_per_hour, 2)
+print('Your weekly earning is : ', weekly_salary)
