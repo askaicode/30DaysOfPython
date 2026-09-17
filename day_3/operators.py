@@ -1,3 +1,5 @@
+import math
+
 # 1 to 4
 '''age = 24
 height = 177.50
@@ -33,11 +35,25 @@ print('The circumference of circle is : ', circumference)
 
 # 8 Calculating slope, x-intercept and y-intercept of y = 2x - 2
 # y = mx + b
-m = 2
+'''m_8 = 2
 b = -2
-x_intercept = -(b) / m
+x_intercept = -(b) // m_8
 y_intercept = b
 
-print('Slope(m) : ', m)
-print('x-intercept : ', x_intercept)
-print('y-intercept : ', y_intercept)
+print('Slope(m) : ', m_8) # m = 2
+print('x-intercept : ', x_intercept) #(1, 0)
+print('y-intercept : ', y_intercept) #(0, -2)
+'''
+
+# 9 - Slope is (m = y2-y1/x2-x1)
+# # Find the slope
+y1 = 2
+y2= 10
+x2 = 6
+x1 = 2
+m_9 = (y2 - y1) // (x2 - x1)
+print('Slope if task9 is : ', m_9)
+# Euclidean distance between point (2, 2) and point (6,10)
+# The formula: distance = square root of ((x2 - x1)² + (y2 - y1)²)
+distance_euclidean = round(math.sqrt((y2 - y1)**2 + (x2 - x1)**2), 2)
+print('The distance euclidean is : ', distance_euclidean)
