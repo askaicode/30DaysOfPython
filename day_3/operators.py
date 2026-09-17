@@ -105,3 +105,8 @@ floor_division = 7 // 3
 int_converted = int(2.7)
 is_the_same = floor_division == int_converted
 print(is_the_same)
+
+#19 - Check if type of '10' is equal to type of 10
+type1 = type('10')
+type2 = type(10)
+print('is the same type : ', type1 == type2)
