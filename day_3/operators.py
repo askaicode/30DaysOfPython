@@ -35,7 +35,7 @@ print('The circumference of circle is : ', circumference)
 
 # 8 Calculating slope, x-intercept and y-intercept of y = 2x - 2
 # y = mx + b
-'''m_8 = 2
+m_8 = 2
 b = -2
 x_intercept = -(b) // m_8
 y_intercept = b
@@ -43,7 +43,6 @@ y_intercept = b
 print('Slope(m) : ', m_8) # m = 2
 print('x-intercept : ', x_intercept) #(1, 0)
 print('y-intercept : ', y_intercept) #(0, -2)
-'''
 
 # 9 - Slope is (m = y2-y1/x2-x1)
 # # Find the slope
@@ -57,3 +56,14 @@ print('Slope if task9 is : ', m_9)
 # The formula: distance = square root of ((x2 - x1)² + (y2 - y1)²)
 distance_euclidean = round(math.sqrt((y2 - y1)**2 + (x2 - x1)**2), 2)
 print('The distance euclidean is : ', distance_euclidean)
+
+# 10 - comparing m_8 and m_9
+print('Comparing m_8 and m_9 (==)', m_8 == m_9)
+print('Comparing m_8 and m_9 (>)', m_8 > m_9)
+
+# 11 - y = x**2 + 6x + 9
+# for y = 0, x should be -3
+x = -3
+y = (x**2) + 6 * x + 9
+print('x : ', x)
+print('y : ', y)
