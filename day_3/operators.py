@@ -72,4 +72,12 @@ print('y : ', y)
 # 12 Find the length of 'python' and 'dragon' and make a falsy comparison statement.
 python_len = len('python')
 dragon_len = len('dragon')
-print('Fasly comparaison of python and dragon ', python_len == dragon_len)
+print('Fasly comparaison of python and dragon with !=', python_len != dragon_len)
+print('Fasly comparaison of python and dragon with >', python_len > dragon_len)
+
+# 13 Use and operator to check if 'on' is found in both 'python' and 'dragon'
+word1  = 'python'
+word2 = 'dragon'
+print('on' in word1 and 'on' in word2)
+
+# 14 I hope this course is not full of jargon. Use in operator to check if jargon is in the sentence.
