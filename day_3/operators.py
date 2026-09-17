@@ -84,3 +84,6 @@ print('on' in word1 and 'on' in word2)
 sentence = 'I hope this course is not full of jargon.'
 target_word = 'jargon'
 print(target_word in sentence)
+
+# 15 There is no 'on' in both dragon and python
+print('There no "on" in both dragon and python : ', 'on' not in word1 and 'on' not in word2)
