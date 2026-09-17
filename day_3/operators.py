@@ -86,4 +86,11 @@ target_word = 'jargon'
 print(target_word in sentence)
 
 # 15 There is no 'on' in both dragon and python
-print('There no "on" in both dragon and python : ', 'on' not in word1 and 'on' not in word2)
+print('There no "on" in both dragon and python : ')
+found_on = 'on' in word1 and 'on' in word2
+print(not found_on)
+
+# 16 Find the length of the text python and convert the value to float and convert it to string
+python_len_float = float(python_len)
+python_len_string = str(python_len)
+print(python_len_float, python_len_string)
