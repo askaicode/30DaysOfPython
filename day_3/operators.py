@@ -110,3 +110,7 @@ print(is_the_same)
 type1 = type('10')
 type2 = type(10)
 print('is the same type : ', type1 == type2)
+
+# 20 - Check if int('9.8') is equal to 10
+int_9dot8 = int(float('9.8'))
+print('is the same : ', int_9dot8 == 10)
