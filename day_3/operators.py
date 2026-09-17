@@ -99,3 +99,9 @@ print(python_len_float, python_len_string)
 test_number = 18
 remainder = test_number % 2
 print(remainder == 0)
+
+# 18 - Check if the floor division of 7 by 3 is equal to the int converted value of 2.7.
+floor_division = 7 // 3
+int_converted = int(2.7)
+is_the_same = floor_division == int_converted
+print(is_the_same)
