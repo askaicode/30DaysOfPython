@@ -31,7 +31,6 @@ area_of_circle = PI * radius * radius
 print('The area of circle is : ', area_of_circle)
 circumference = 2 * PI * radius
 print('The circumference of circle is : ', circumference)
-'''
 
 # 8 Calculating slope, x-intercept and y-intercept of y = 2x - 2
 # y = mx + b
@@ -127,3 +126,16 @@ sec_per_year = 31536000
 years_lived = int(input('Enter number of years you have lived : '))
 years_in_sec = years_lived * sec_per_year
 print('You have lived for ', years_in_sec, 'seconds.')
+'''
+# 23 - Write a Python script that displays the following table
+
+'''
+1 1 1 1 1
+2 1 2 4 8
+3 1 3 9 27
+4 1 4 16 64
+5 1 5 25 125
+'''
+
+for i in range(1, 6):
+    print(i, i**0, i, i**2, i**3)
