@@ -1,0 +1,61 @@
+company = 'Coding For All'
+# 4 print var using print()
+print(company)
+# 5 Print the length of the company string using len() method and print().
+company_len = len(company)
+print('Company length is : ', company_len)
+# 6 Change all the characters to uppercase letters using upper() method.
+company_uppercased = company.upper()
+print('result : ', company_uppercased)
+# 7 Change all the characters to lowercase letters using lower() method.
+company_lowercased = company.lower()
+print('result : ', company_lowercased)
+# 8 Use capitalize(), title(), swapcase() methods to format the value of the string Coding For All.
+capitalzed_str = company.capitalize()
+titled_str = company.title()
+swapcased_str = company.swapcase()
+print(capitalzed_str, titled_str, swapcased_str)
+# 9 Cut(slice) out the first word of Coding For All string.
+first_word = company.split(' ')[0]
+print('The first world : ', first_word)
+# 10 Check if Coding For All string contains a word Coding using the method index, find or other methods.
+position_coding = company.index('Coding')
+found_word = company.find('Coding')
+print(position_coding)
+print(found_word)
+# 11 Replace the word coding in the string 'Coding For All' to Python.
+new_sentence = company.replace('Coding', 'Python')
+print(new_sentence)
+# 12 Change "Python for Everyone" to "Python for All" using the replace method or other methods.
+old_phrase = 'Python for Everyone'
+new_phrase = old_phrase.replace('Everyone', 'All')
+print(new_phrase)
+# 13 Split the string 'Coding For All' using space as the separator (split()) .
+new_list = company.split(' ')
+print(new_list)
+# 14 "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon" split the string at the comma.
+str1 = 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon'
+print(str1.split(', '))
+# 15 What is the character at index 0 in the string Coding For All.
+char_0 = company[0]
+print('The character at index 0 : ', char_0)
+# 16 What is the last index of the string Coding For All.
+last_index = len(company) - 1
+print('The last index of the string Coding For All is : ', last_index)
+# 17 What character is at index 10 in "Coding For All" string.
+letter_10 = company[10]
+print('The caracter at index 10 : ', letter_10)
+# 18 Create an acronym or an abbreviation for the name 'Python For Everyone'.
+based_phrase_18 = 'Python For Everyone'.split(' ')
+based_phrase_19 = 'Coding For All'.split(' ')
+abbreviation_18 = based_phrase_18[0][0] + based_phrase_18[1][0] + based_phrase_18[2][0]
+print('The acronym 18 is : ', abbreviation_18)
+# 19 Create an acronym or an abbreviation for the name 'Coding For All'.
+abbreviation_19 = based_phrase_19[0][0] + based_phrase_19[1][0] + based_phrase_19[2][0]
+print('The acronym 19 is : ', abbreviation_19)
+# 20 Use index to determine the position of the first occurrence of C in Coding For All.
+position_first_occ_of_c = company.index('C') 
+print('The position of the first occurence of "C" in Coding For All is : ', position_first_occ_of_c)
+# 21 Use index to determine the position of the first occurrence of F in Coding For All.
+position_first_occ_of_f = company.index('F')
+print('The position of the first occurence of F in Coding For All', position_first_occ_of_f)
