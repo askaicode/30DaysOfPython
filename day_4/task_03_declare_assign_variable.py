@@ -1,3 +1,4 @@
+# 3 Declare a variable named company and assign it to an initial value "Coding For All".
 company = 'Coding For All'
 # 4 print var using print()
 print(company)
@@ -59,3 +60,26 @@ print('The position of the first occurence of "C" in Coding For All is : ', posi
 # 21 Use index to determine the position of the first occurrence of F in Coding For All.
 position_first_occ_of_f = company.index('F')
 print('The position of the first occurence of F in Coding For All', position_first_occ_of_f)
+# 22 Use rfind to determine the position of the last occurrence of l in Coding For All People.
+sentence_22 = 'Coding For All People'
+position_l = sentence_22.rfind('l')
+print('The position of the last occr of I is : ', position_l)
+# 23 Use index or find to find the position of the first occurrence of the word 'because' in the following sentence:
+sentence_23 = 'You cannot end a sentence with because because because is a conjunction'
+first_because_position = sentence_23.find('because')
+print('The the position of the first occr of because is : ', first_because_position)
+#24 Use rindex to find the position of the last occurrence of the word because in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
+last_because_position = sentence_23.rindex('because')
+print('The position of the last occr of because is : ', last_because_position)
+# 25 Slice out the phrase 'because because because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
+sentence_because = sentence_23[first_because_position:last_because_position + len('because')]
+print('The because phrase is : ', sentence_because)
+# 28 Does 'Coding For All' start with a substring Coding?
+sentence_28 = 'Coding For All'
+print('Does start with Coding ? : ', sentence_28.startswith('Coding'))
+# 29 Does 'Coding For All' end with a substring coding?
+print('Does ends with Coding ? : ', sentence_28.endswith('Coding'))
+# 30 '   Coding For All      '  , remove the left and right trailing spaces in the given string.
+sentence_30 = '   Coding For All      '
+sentence_without_spaces = sentence_30.strip()
+print(sentence_without_spaces)
