@@ -83,3 +83,25 @@ print('Does ends with Coding ? : ', sentence_28.endswith('Coding'))
 sentence_30 = '   Coding For All      '
 sentence_without_spaces = sentence_30.strip()
 print(sentence_without_spaces)
+
+# 31 Which one of the following variables return True when we use the method isidentifier()
+p1 = '30DaysOfPython'
+p2 = 'thirty_days_of_python'
+
+print('Is valid variable name : ', p1.isidentifier())
+print('Is valid variable name : ', p2.isidentifier())
+
+# 32 The following list contains the names of some of python libraries: ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']. Join the list with a hash with space string.
+lib_lists = ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
+new_lists = '# '.join(lib_lists)
+print('Joined list with hash with space string : ', new_lists)
+
+# 33 Use the new line escape sequence to separate the following sentences.
+sentence_33 = 'I am enjoying this challenge\nI just wonder what is next.'
+print(sentence_33)
+
+# 34 Use a tab escape sequence to write the following lines.
+p34_a = 'Name\tAge\tCountry\tCity'
+p34_b = 'Asabeneh\t250\tFinland\tHelsinki'
+print(p34_a)
+print(p34_b)
