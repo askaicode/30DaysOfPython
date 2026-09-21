@@ -101,7 +101,21 @@ sentence_33 = 'I am enjoying this challenge\nI just wonder what is next.'
 print(sentence_33)
 
 # 34 Use a tab escape sequence to write the following lines.
+
 p34_a = 'Name\tAge\tCountry\tCity'
 p34_b = 'Asabeneh\t250\tFinland\tHelsinki'
 print(p34_a)
 print(p34_b)
+
+# 35 Use the string formatting method to display the following:
+
+radius = 10
+area = 3.14 * radius ** 2
+
+print(f'''
+    radius = {radius}
+    area = 3.14 * radius ** 2
+    The area of a circle with radius {radius} is {round(area)} meters square.
+''')
+
+# 36 Make the following using string formatting methods:
