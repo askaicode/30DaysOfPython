@@ -119,3 +119,12 @@ print(f'''
 ''')
 
 # 36 Make the following using string formatting methods:
+print(f'''
+    8 + 6 = {8 + 6}
+    8 - 6 = {8 - 6}
+    8 * 6 = {8 * 6}
+    8 / 6 = {round(8 / 6, 2)}
+    8 % 6 = {8 % 6}
+    8 // 6 = {8 // 6}
+    8 ** 6 = {8 ** 6}
+''')
