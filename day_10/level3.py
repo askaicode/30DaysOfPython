@@ -2849,7 +2849,9 @@ langs_count = {}
 for lang in set_lang:
     count = lang_lst.count(lang)
     langs_count.update({lang: count})
-
+print('------------------------------------------')
+print('lang count : ', langs_count)
+print('***********************************************')
 lang_pairs = []
 for lang in langs_count:
     lang_pairs.append((langs_count[lang], lang))
