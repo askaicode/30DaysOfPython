@@ -218,9 +218,9 @@ greet('Alice')   # Hello, Alice!
 
 # 5
 def show_args(**kwargs):
+    print(kwargs.items())
     pairs = [f'{key}: {value}' for key, value in kwargs.items()]
     print('Received: ' + ', '.join(pairs))
-
 show_args(name="Alice", age=30, city="New York")
 # Received: name: Alice, age: 30, city: New York
 show_args(name="Bob", pet="Fluffy, the bunny")
