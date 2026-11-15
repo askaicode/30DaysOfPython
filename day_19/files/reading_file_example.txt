@@ -1,0 +1,6 @@
+This is an example to show how to open a file and read.
+This is the second line of the text.
+Python can read a file all at once or line by line.
+The with statement closes the file for you.
+This is the last line of the file.
+This text will be written in a newly created fileThis text will be written in a newly created fileThis text will be written in a newly created fileThis text will be written in a newly created fileThis text will be written in a newly created fileThis text will be written in a newly created fileThis text will be written in a newly created fileThis text will be written in a newly created fileThis text will be written in a newly created file
